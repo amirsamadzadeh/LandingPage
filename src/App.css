@@ -1,9 +1,15 @@
 @import "tailwindcss";
 body {
-  background-color: #1e1e1e;
+  background-color: #ffffff;
+}
+
+@font-face {
+  font-family: "Graphik-Regular";
+  src: url("/fonts/Graphik/Graphic-Regular.otf") format("opentype");
 }
 
 @theme {
-  --color-11: #1c1c1c;
-  --color-15: #262626;
+  --color-text: #252b42;
+  --color-Primary: #2091f9;
+  --font-Graphik: " Graphik-Regular";
 }
