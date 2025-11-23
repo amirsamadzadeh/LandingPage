@@ -12,4 +12,5 @@ body {
   --color-text: #252b42;
   --color-Primary: #2091f9;
   --font-Graphik: " Graphik-Regular";
+  --breakpoint-xs: 25rem;
 }
