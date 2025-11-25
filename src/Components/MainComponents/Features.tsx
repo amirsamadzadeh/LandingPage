@@ -1,6 +1,6 @@
 export const Features = () => {
   return (
-    <div className="h-screen flex flex-col text-center w-[90%] mx-auto">
+    <div className="min-h-screen flex flex-col text-center w-[90%] mx-auto">
       {/* top section */}
       <div className="w-full flex flex-col mx-auto pt-22 px-[66px] mb-[50px]">
         <h2 className="text-5xl font-Graphik text-firstText mb-4 p-2.5">
