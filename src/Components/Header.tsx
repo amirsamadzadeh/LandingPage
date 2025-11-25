@@ -1,3 +1,5 @@
+import { ButtonTryFree } from "./ButtonTryFree";
+
 export const Header = () => {
   return (
     <div className="w-full h-screen aspect-1/5/2">
@@ -61,9 +63,7 @@ export const Header = () => {
           Most calendars are designed for teams. Slate is designed for
           freelancers .
         </h4>
-        <span className="bg-Primary font-Graphik text-xl py-4 px-16 rounded-[35px] max-w-full text-white cursor-pointer">
-          Try For Free
-        </span>
+        <ButtonTryFree />
       </div>
     </div>
   );
