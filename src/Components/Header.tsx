@@ -1,6 +1,6 @@
 export const Header = () => {
   return (
-    <div className="w-screen aspect-1/5/2">
+    <div className="w-full h-screen aspect-1/5/2">
       {/* background Mobile */}
 
       <img
@@ -12,7 +12,7 @@ export const Header = () => {
       <img
         src="./photos/backgroundDesktop.png"
         alt="background"
-        className="object-cover w-full z-1 absolute hidden xs:block h-full"
+        className="object-cover w-full z-1 h-screen absolute hidden xs:block overflow-visible"
       />
       {/* navbar Mobile */}
       <div className="relative flex justify-between w-[90%] z-2 mx-auto p-[17px] lg:hidden">

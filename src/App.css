@@ -1,6 +1,7 @@
 @import "tailwindcss";
 body {
   background-color: #ffffff;
+  scrollbar-width: none;
 }
 
 @font-face {
@@ -11,6 +12,8 @@ body {
 @theme {
   --color-text: #252b42;
   --color-Primary: #2091f9;
+  --color-secondText: #374754;
+  --color-firstText: #252b42;
   --font-Graphik: " Graphik-Regular";
   --breakpoint-xs: 25rem;
 }
