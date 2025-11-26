@@ -6,7 +6,15 @@ body {
 
 @font-face {
   font-family: "Graphik-Regular";
-  src: url("/fonts/Graphik/Graphic-Regular.otf") format("opentype");
+  src: url("/fonts/Graphik/Graphik-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "Graphik-Bold";
+  src: url("/fonts/Graphik/Graphik-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "Graphik-Bold-Italic";
+  src: url("/fonts/Graphik/Graphik-Bold-Italic") format("opentype");
 }
 
 @theme {
@@ -14,6 +22,8 @@ body {
   --color-Primary: #2091f9;
   --color-secondText: #374754;
   --color-firstText: #252b42;
-  --font-Graphik: " Graphik-Regular";
+  --font-Graphik: "Graphik-Regular";
+  --font-GraphikBold: "Graphik-Bold";
+  --font-GraphikBoldItalic: "Graphik-Bold-Italic";
   --breakpoint-xs: 25rem;
 }
