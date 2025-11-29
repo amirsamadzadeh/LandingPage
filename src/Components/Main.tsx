@@ -2,6 +2,7 @@ import { Features } from "./MainComponents/Features";
 import Organize from "./MainComponents/Organize";
 import { Newsletter } from "./MainComponents/Newsletter";
 import { Partners } from "./MainComponents/Partners";
+import { Testimonials } from "./MainComponents/Testimonials";
 
 export const Main = () => {
   return (
@@ -10,6 +11,7 @@ export const Main = () => {
       <Organize />
       <Newsletter />
       <Partners />
+      <Testimonials />
     </div>
   );
 };

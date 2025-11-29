@@ -16,6 +16,10 @@ body {
   font-family: "Graphik-Bold-Italic";
   src: url("/fonts/Graphik/Graphik-Bold-Italic") format("opentype");
 }
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url("/fonts/Roboto-Bold.ttf") formar("truetype");
+}
 
 @theme {
   --color-text: #252b42;
@@ -25,5 +29,6 @@ body {
   --font-Graphik: "Graphik-Regular";
   --font-GraphikBold: "Graphik-Bold";
   --font-GraphikBoldItalic: "Graphik-Bold-Italic";
+  --font-RobotoBold : "Roboto-Bold"
   --breakpoint-xs: 25rem;
 }
