@@ -4,18 +4,18 @@ export const Header = () => {
   return (
     <div className="w-full h-screen aspect-1/5/2">
       {/* background Mobile */}
-
       <img
         src="./photos/backgroundMobile.png"
         alt="background"
-        className="object-fill w-full h-screen z-1 absolute xs:hidden "
+        className="object-fill w-full h-screen z-1 visible xs:hidden "
       />
       {/* background Desktop */}
       <img
         src="./photos/backgroundDesktop.png"
         alt="background"
-        className="object-cover w-full z-1 h-screen absolute hidden xs:block overflow-visible"
+        className="w-full h-screen object-cover absolute z-[-1] hidden xs:block overflow-visible"
       />
+
       {/* navbar Mobile */}
       <div className="relative flex justify-between w-[90%] z-2 mx-auto p-[17px] lg:hidden">
         <img src="./photos/logo.svg" alt="Logo" />

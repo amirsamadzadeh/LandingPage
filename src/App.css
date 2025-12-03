@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import "tailwindcss/utilities";
 body {
   background-color: #ffffff;
   scrollbar-width: none;
@@ -26,9 +27,11 @@ body {
   --color-Primary: #2091f9;
   --color-secondText: #374754;
   --color-firstText: #252b42;
+  --color-stroke: #dedede;
   --font-Graphik: "Graphik-Regular";
   --font-GraphikBold: "Graphik-Bold";
   --font-GraphikBoldItalic: "Graphik-Bold-Italic";
-  --font-RobotoBold : "Roboto-Bold"
+  --font-RobotoBold: "Roboto-Bold";
   --breakpoint-xs: 25rem;
+  --breakpoint-xsm: 31rem;
 }

@@ -3,7 +3,7 @@ import Organize from "./MainComponents/Organize";
 import { Newsletter } from "./MainComponents/Newsletter";
 import { Partners } from "./MainComponents/Partners";
 import { Testimonials } from "./MainComponents/Testimonials";
-
+import { Pricing } from "./MainComponents/Pricing";
 export const Main = () => {
   return (
     <div className="flex flex-col">
@@ -12,6 +12,7 @@ export const Main = () => {
       <Newsletter />
       <Partners />
       <Testimonials />
+      <Pricing />
     </div>
   );
 };
