@@ -2,12 +2,12 @@ import { ButtonTryFree } from "./ButtonTryFree";
 
 export const Header = () => {
   return (
-    <div className="w-full h-screen aspect-1/5/2">
+    <div className="relative w-full h-screen aspect-1/5/2">
       {/* background Mobile */}
       <img
         src="./photos/backgroundMobile.png"
         alt="background"
-        className="object-fill w-full h-screen z-1 visible xs:hidden "
+        className="absolute object-fill w-full h-screen z-1 visible xs:hidden "
       />
       {/* background Desktop */}
       <img
