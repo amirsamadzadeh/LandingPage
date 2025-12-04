@@ -35,3 +35,6 @@ body {
   --breakpoint-xs: 25rem;
   --breakpoint-xsm: 31rem;
 }
+.textarea-fixed {
+  resize: none;
+}
