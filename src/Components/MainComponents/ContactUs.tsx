@@ -4,7 +4,7 @@ export const ContactUs = () => {
       {/* wrapper */}
       <div className="">
         {/* mobile version */}
-        <div className="flex flex-col lg: w-[90%] mx-auto pt-[50px] pb-[52px] lg:hidden">
+        <div className="flex flex-col lg: w-[90%] mx-auto pt-[50px] pb-[52px] mb-[99px] lg:hidden">
           {/* head */}
           <div className="flex flex-col items-center text-center">
             <h2 className="p-2.5 font-Graphik text-5xl text-firstText mb-[7px]">
@@ -87,7 +87,7 @@ export const ContactUs = () => {
           </div>
         </div>
         {/* desktop */}
-        <div className="hidden lg:flex lg:flex-col w-[90%] mx-auto">
+        <div className="hidden lg:flex lg:flex-col w-[90%] mx-auto mb-[52px]">
           {/* head */}
           <div className="flex flex-col items-center text-center">
             <h2 className="p-2.5 font-Graphik text-5xl text-firstText mb-[7px]">
@@ -100,7 +100,7 @@ export const ContactUs = () => {
           {/* form section/address/location/social medias */}
           <div className="flex gap-12.5 mt-12.5 pb-12.5">
             {/* form section */}
-            <div className="flex w-[40%] flex-col shadow-xl justify-center items-center border border-stroke rounded-[20px] py-20 px-12.5 ">
+            <div className="flex w-[40%] flex-col shadow-2xl justify-center items-center border border-stroke rounded-[20px] py-20 px-12.5 ">
               <h3 className="text-firstText font-GraphikBold text-xl sm:2xl md:3xl">
                 Contact Us
               </h3>

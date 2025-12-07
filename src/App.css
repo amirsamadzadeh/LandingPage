@@ -3,6 +3,7 @@
 body {
   background-color: #ffffff;
   scrollbar-width: none;
+  overflow-x: hidden;
 }
 
 @font-face {
