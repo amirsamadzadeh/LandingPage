@@ -1,6 +1,6 @@
 export const Pricing = () => {
   return (
-    <div className="bg-[#252B42] pt-2.5 px-7 xsm:px-10 sm:px-28 md:px-38 xl:py-25 xl:px-0 xl:mx-0  mx-[13.5px]">
+    <div className="bg-[#252B42] pt-2.5 px-7 xsm:px-10 sm:px-28 md:px-38 xl:py-25 xl:px-0 xl:mx-0  xs:mx-[13.5px]">
       {/* wrapper */}
       <div className="flex flex-col xl:w-[90%] mx-auto">
         {/* header and titles */}
@@ -16,7 +16,7 @@ export const Pricing = () => {
         {/* cart sections */}
         <div
           className="flex flex-col items-center lg:grid lg:grid-cols-2 lg:auto-rows-auto
-                lg:justify-center xl:grid-cols-3 gap-[50px] py-[18px] xl:py-0 mb-25 w-full h-full"
+                lg:justify-center xl:grid-cols-3 gap-[50px] py-[18px] xl:py-0  mb-25 w-full h-full"
         >
           {/* first cart */}
           <div className=" flex flex-col bg-white border border-stroke rounded-[10px] py-10  xl:min-h-[610px]">
@@ -58,7 +58,7 @@ export const Pricing = () => {
               </span>
             </div>
             {/* button */}
-            <span className="flex justify-center items-center text-white bg-Primary font-Graphik text-md sm:text-lg lg:text-sm xl:text-lg rounded-[35px] py-[18px] px-[70px] xl:px-[75px] xl:w-[255px] mx-10 xl:mx-auto  cursor-pointer ">
+            <span className="flex justify-center items-center text-nowrap text-white bg-Primary font-Graphik text-md sm:text-lg lg:text-sm xl:text-lg rounded-[35px] py-[18px] px-[70px] xl:px-[75px] mx-5 xl:mx-auto  cursor-pointer xl:w-[255px] ">
               Order Now
             </span>
           </div>
@@ -102,7 +102,7 @@ export const Pricing = () => {
               </span>
             </div>
             {/* button */}
-            <span className="flex justify-center items-center text-Primary bg-white font-Graphik text-md sm:text-lg lg:text-sm xl:text-lg rounded-[35px] py-[18px] px-[70px] xl:px-[75px] mx-10 xl:mx-auto xl:w-[255px]  cursor-pointer ">
+            <span className="flex justify-center items-center text-nowrap text-Primary bg-white font-Graphik text-md sm:text-lg lg:text-sm xl:text-lg rounded-[35px] py-[18px] px-[70px] xl:px-[75px] mx-5 xl:mx-auto xl:w-[255px]  cursor-pointer ">
               Order Now
             </span>
           </div>
@@ -152,7 +152,7 @@ export const Pricing = () => {
               </span>
             </div>
             {/* button */}
-            <span className="flex justify-center items-center text-white bg-Primary font-Graphik text-md sm:text-lg lg:text-sm xl:text-lg rounded-[35px] py-[18px] px-[70px] xl:px-[75px] mx-10 xl:mx-auto  cursor-pointer xl:w-[255px] ">
+            <span className="flex justify-center items-center text-nowrap text-white bg-Primary font-Graphik text-md sm:text-lg lg:text-sm xl:text-lg rounded-[35px] py-[18px] px-[70px] xl:px-[75px] mx-5 xl:mx-auto  cursor-pointer xl:w-[255px] ">
               Order Now
             </span>
           </div>

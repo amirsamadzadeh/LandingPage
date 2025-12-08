@@ -2,8 +2,8 @@ export const Features = () => {
   return (
     <div className="min-h-screen flex flex-col text-center w-[90%] mx-auto">
       {/* top section */}
-      <div className="w-full flex flex-col mx-auto pt-22 px-[66px] mb-[50px]">
-        <h2 className="text-5xl font-Graphik text-firstText mb-4 p-2.5">
+      <div className="w-full flex flex-col mx-auto pt-22 xs:px-[66px] mb-[50px]">
+        <h2 className="text-4xl xs:text-5xl font-GraphikBold xs:font-Graphik text-firstText mb-4 p-2.5">
           Features
         </h2>
         <p className="text-2xl font-Graphik text-secondText ">
@@ -24,14 +24,14 @@ export const Features = () => {
           </div>
         </div>
         {/* videoPlayer Desktop */}
-        <div className="relative w-full rounded-3xl shadow-2xl mt-35 hidden md:block">
+        <div className="relative w-full rounded-t-[40px] rounded-b-[45px] shadow-2xl mt-35 hidden md:block">
           <img
             src="/photos/screenDesktop.png"
             alt="Video"
             className="object-contain w-full z-0"
           />
 
-          <div className="absolute flex justify-center items-center top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-Primary p-6 rounded-full w-33 h-33">
+          <div className="absolute flex justify-center items-center top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-Primary p-6 rounded-full  w-28 lg:w-33 h-28 lg:h-33 cursor-pointer">
             <img src="/icons/playerDesktop.svg" alt="icon" />
           </div>
         </div>

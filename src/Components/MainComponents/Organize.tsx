@@ -6,7 +6,7 @@ const Organize = () => {
       {/* titles */}
 
       <div className="flex flex-col text-center items-center justify-center lg:items-start lg:text-start lg:justify-start lg:w-1/2 mb-15 lg:mb-0">
-        <h2 className="font-Graphik text-5xl sm:text-6xl lg:text-5xl text-firstText w-[355px]  mb-8  text-center lg:text-start">
+        <h2 className="font-GraphikBold xs:font-Graphik text-4xl xs:text-5xl sm:text-6xl lg:text-5xl text-firstText w-[355px]  mb-8  text-center lg:text-start">
           Fastest way to organize
         </h2>
         <span className="font-Graphik text-secondText w-64 mb-20 text-[28px] sm:text-3xl max-w-[285px] lg:hidden">
